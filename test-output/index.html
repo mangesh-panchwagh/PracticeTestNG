@@ -148,7 +148,7 @@
                   <a name="TestNoteAffect">
                   </a> <!-- TestNoteAffect -->
                   <span class="method-name">TestNoteAffect</span>
-                  <div class="stack-trace">java.lang.AssertionError: URL Mismatch expected [https://eventtest.noteaffect.com/ap] but found [https://eventtest.noteaffect.com/Account/Login?ReturnUrl=%2Fapp]
+                  <div class="stack-trace">java.lang.AssertionError: URL Mismatch expected [https://eventtest.noteaffect.com/ap] but found [https://eventtest.noteaffect.com/Account/SsoLogin?returnurl=%2Fapp]
 	at com.hyt.screenshots.TestClass.TestNoteAffect(TestClass.java:40)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 ... Removed 32 stack frames
@@ -166,9 +166,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: &apos;4.22.0&apos;, revision: &apos;c5f3146703*&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.11&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [00c6bc83cfc02131792772d42dd5f931, findElement {value=//h6[text()=&apos;Dashboard&apos;], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.54, chrome: {chromedriverVersion: 141.0.7390.54 (b95610d5c4a5..., userDataDir: C:\Users\vRhythms\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54026}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54026/devtoo..., se:cdpVersion: 141.0.7390.54, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 00c6bc83cfc02131792772d42dd5f931
+Command: [b030b568e96e6307018fec7d1baf1117, findElement {using=xpath, value=//h6[text()=&apos;Dashboard&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.54, chrome: {chromedriverVersion: 141.0.7390.54 (b95610d5c4a5..., userDataDir: C:\Users\vRhythms\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65301}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65301/devtoo..., se:cdpVersion: 141.0.7390.54, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b030b568e96e6307018fec7d1baf1117
 	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
@@ -287,20 +287,20 @@ data.addRows(3);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'TestOrangeHRM')
 data.setCell(0, 2, 'com.hyt.screenshots.TestClass')
-data.setCell(0, 3, 15429);
+data.setCell(0, 3, 16709);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'TestNoteAffect')
 data.setCell(1, 2, 'com.hyt.screenshots.TestClass')
-data.setCell(1, 3, 2966);
+data.setCell(1, 3, 3188);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'TestGoogle')
 data.setCell(2, 2, 'com.hyt.screenshots.TestClass')
-data.setCell(2, 3, 2023);
+data.setCell(2, 3, 1813);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 20 seconds</span>
+              <span class="suite-total-time">Total running time: 21 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -350,51 +350,51 @@ return data;
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">TestGoogle</span>
-                <span class="method-start">2579 ms</span>
+                <span class="method-start">2314 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-test after">
-                <span class="method-name">teardown</span>
-                <span class="method-start">4605 ms</span>
-              </div> <!-- configuration-test after -->
               <div class="configuration-method after">
                 <span class="method-name">screenshotCapture([TestResult name=TestGoogle status=SUCCESS method=TestClass.TestGoogle()[pri:0, instance:com.hyt.scr...)</span>
-                <span class="method-start">4605 ms</span>
+                <span class="method-start">4129 ms</span>
               </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">4135 ms</span>
+              </div> <!-- configuration-test after -->
               <div class="configuration-test before">
                 <span class="method-name">setup</span>
-                <span class="method-start">4871 ms</span>
+                <span class="method-start">4332 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">TestNoteAffect</span>
-                <span class="method-start">6302 ms</span>
+                <span class="method-start">5917 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">screenshotCapture([TestResult name=TestNoteAffect status=FAILURE method=TestClass.TestNoteAffect()[pri:0, instance:com...)</span>
-                <span class="method-start">9269 ms</span>
+                <span class="method-start">9107 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-test after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">10100 ms</span>
+                <span class="method-start">9264 ms</span>
               </div> <!-- configuration-test after -->
               <div class="configuration-test before">
                 <span class="method-name">setup</span>
-                <span class="method-start">10228 ms</span>
+                <span class="method-start">9435 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">TestOrangeHRM</span>
-                <span class="method-start">11618 ms</span>
+                <span class="method-start">11551 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">screenshotCapture([TestResult name=TestOrangeHRM status=FAILURE method=TestClass.TestOrangeHRM()[pri:0, instance:com.h...)</span>
-                <span class="method-start">27047 ms</span>
+                <span class="method-start">28260 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-test after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">27171 ms</span>
+                <span class="method-start">28517 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

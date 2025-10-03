@@ -22,7 +22,7 @@ public class FirstTest {
 	}
 	
 	@Test
-	public void TestFacebook() throws Exception {
+	public void TestNoteAffect() throws Exception {
 		WebDriverManager.chromedriver().setup();
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();

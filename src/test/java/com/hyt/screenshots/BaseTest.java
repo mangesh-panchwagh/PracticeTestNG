@@ -23,6 +23,7 @@ public class BaseTest {
 
 	public static WebDriver driver;
 	public static String screenshotsSubFoldername;
+	
 	@BeforeTest
 	public void setup() {
 		

@@ -2,24 +2,20 @@
 <testng-results ignored="0" total="3" passed="1" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-10-01T16:36:08 IST" name="Suite" finished-at="2025-10-01T16:36:35 IST" duration-ms="27348">
+  <suite started-at="2025-10-03T19:36:09 IST" name="Suite" finished-at="2025-10-03T19:36:39 IST" duration-ms="29506">
     <groups>
     </groups>
-    <test started-at="2025-10-01T16:36:08 IST" name="Test1" finished-at="2025-10-01T16:36:13 IST" duration-ms="4865">
+    <test started-at="2025-10-03T19:36:09 IST" name="Test1" finished-at="2025-10-03T19:36:14 IST" duration-ms="4322">
       <class name="com.hyt.screenshots.TestClass">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.hyt.screenshots.TestClass@3c46e67a]" started-at="2025-10-01T16:36:08 IST" name="setup" finished-at="2025-10-01T16:36:10 IST" duration-ms="2546" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.hyt.screenshots.TestClass@3c46e67a]" started-at="2025-10-03T19:36:09 IST" name="setup" finished-at="2025-10-03T19:36:12 IST" duration-ms="2281" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="TestGoogle()[pri:0, instance:com.hyt.screenshots.TestClass@3c46e67a]" started-at="2025-10-01T16:36:10 IST" name="TestGoogle" finished-at="2025-10-01T16:36:12 IST" duration-ms="2023" status="PASS">
+        <test-method signature="TestGoogle()[pri:0, instance:com.hyt.screenshots.TestClass@3c46e67a]" started-at="2025-10-03T19:36:12 IST" name="TestGoogle" finished-at="2025-10-03T19:36:13 IST" duration-ms="1813" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestGoogle -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.hyt.screenshots.TestClass@3c46e67a]" started-at="2025-10-01T16:36:13 IST" name="teardown" finished-at="2025-10-01T16:36:13 IST" duration-ms="250" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="screenshotCapture(org.testng.ITestResult)[pri:0, instance:com.hyt.screenshots.TestClass@3c46e67a]" started-at="2025-10-01T16:36:13 IST" name="screenshotCapture" finished-at="2025-10-01T16:36:13 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="screenshotCapture(org.testng.ITestResult)[pri:0, instance:com.hyt.screenshots.TestClass@3c46e67a]" started-at="2025-10-03T19:36:13 IST" name="screenshotCapture" finished-at="2025-10-03T19:36:13 IST" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -30,21 +26,25 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- screenshotCapture -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.hyt.screenshots.TestClass@3c46e67a]" started-at="2025-10-03T19:36:13 IST" name="teardown" finished-at="2025-10-03T19:36:14 IST" duration-ms="177" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
       </class> <!-- com.hyt.screenshots.TestClass -->
     </test> <!-- Test1 -->
-    <test started-at="2025-10-01T16:36:13 IST" name="Test2" finished-at="2025-10-01T16:36:18 IST" duration-ms="5357">
+    <test started-at="2025-10-03T19:36:14 IST" name="Test2" finished-at="2025-10-03T19:36:19 IST" duration-ms="5092">
       <class name="com.hyt.screenshots.TestClass">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.hyt.screenshots.TestClass@40005471]" started-at="2025-10-01T16:36:13 IST" name="setup" finished-at="2025-10-01T16:36:14 IST" duration-ms="1431" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.hyt.screenshots.TestClass@40005471]" started-at="2025-10-03T19:36:14 IST" name="setup" finished-at="2025-10-03T19:36:15 IST" duration-ms="1584" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="TestNoteAffect()[pri:0, instance:com.hyt.screenshots.TestClass@40005471]" started-at="2025-10-01T16:36:14 IST" name="TestNoteAffect" finished-at="2025-10-01T16:36:17 IST" duration-ms="2966" status="FAIL">
+        <test-method signature="TestNoteAffect()[pri:0, instance:com.hyt.screenshots.TestClass@40005471]" started-at="2025-10-03T19:36:15 IST" name="TestNoteAffect" finished-at="2025-10-03T19:36:18 IST" duration-ms="3188" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[URL Mismatch expected [https://eventtest.noteaffect.com/ap] but found [https://eventtest.noteaffect.com/Account/Login?ReturnUrl=%2Fapp]]]>
+              <![CDATA[URL Mismatch expected [https://eventtest.noteaffect.com/ap] but found [https://eventtest.noteaffect.com/Account/SsoLogin?returnurl=%2Fapp]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: URL Mismatch expected [https://eventtest.noteaffect.com/ap] but found [https://eventtest.noteaffect.com/Account/Login?ReturnUrl=%2Fapp]
+              <![CDATA[java.lang.AssertionError: URL Mismatch expected [https://eventtest.noteaffect.com/ap] but found [https://eventtest.noteaffect.com/Account/SsoLogin?returnurl=%2Fapp]
 at org.testng.Assert.fail(Assert.java:111)
 at org.testng.Assert.failNotEquals(Assert.java:1578)
 at org.testng.Assert.assertEqualsImpl(Assert.java:150)
@@ -85,7 +85,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestNoteAffect -->
-        <test-method is-config="true" signature="screenshotCapture(org.testng.ITestResult)[pri:0, instance:com.hyt.screenshots.TestClass@40005471]" started-at="2025-10-01T16:36:17 IST" name="screenshotCapture" finished-at="2025-10-01T16:36:18 IST" duration-ms="830" status="PASS">
+        <test-method is-config="true" signature="screenshotCapture(org.testng.ITestResult)[pri:0, instance:com.hyt.screenshots.TestClass@40005471]" started-at="2025-10-03T19:36:18 IST" name="screenshotCapture" finished-at="2025-10-03T19:36:19 IST" duration-ms="157" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -96,19 +96,19 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- screenshotCapture -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.hyt.screenshots.TestClass@40005471]" started-at="2025-10-01T16:36:18 IST" name="teardown" finished-at="2025-10-01T16:36:18 IST" duration-ms="128" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.hyt.screenshots.TestClass@40005471]" started-at="2025-10-03T19:36:19 IST" name="teardown" finished-at="2025-10-03T19:36:19 IST" duration-ms="159" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- com.hyt.screenshots.TestClass -->
     </test> <!-- Test2 -->
-    <test started-at="2025-10-01T16:36:18 IST" name="Test3" finished-at="2025-10-01T16:36:35 IST" duration-ms="17110">
+    <test started-at="2025-10-03T19:36:19 IST" name="Test3" finished-at="2025-10-03T19:36:39 IST" duration-ms="20062">
       <class name="com.hyt.screenshots.TestClass">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.hyt.screenshots.TestClass@367ffa75]" started-at="2025-10-01T16:36:18 IST" name="setup" finished-at="2025-10-01T16:36:20 IST" duration-ms="1390" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.hyt.screenshots.TestClass@367ffa75]" started-at="2025-10-03T19:36:19 IST" name="setup" finished-at="2025-10-03T19:36:21 IST" duration-ms="2115" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="TestOrangeHRM()[pri:0, instance:com.hyt.screenshots.TestClass@367ffa75]" started-at="2025-10-01T16:36:20 IST" name="TestOrangeHRM" finished-at="2025-10-01T16:36:35 IST" duration-ms="15429" status="FAIL">
+        <test-method signature="TestOrangeHRM()[pri:0, instance:com.hyt.screenshots.TestClass@367ffa75]" started-at="2025-10-03T19:36:21 IST" name="TestOrangeHRM" finished-at="2025-10-03T19:36:38 IST" duration-ms="16709" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//h6[text()='Dashboard']"}
@@ -117,9 +117,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.22.0', revision: 'c5f3146703*'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [00c6bc83cfc02131792772d42dd5f931, findElement {value=//h6[text()='Dashboard'], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.54, chrome: {chromedriverVersion: 141.0.7390.54 (b95610d5c4a5..., userDataDir: C:\Users\vRhythms\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54026}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54026/devtoo..., se:cdpVersion: 141.0.7390.54, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 00c6bc83cfc02131792772d42dd5f931]]>
+Command: [b030b568e96e6307018fec7d1baf1117, findElement {using=xpath, value=//h6[text()='Dashboard']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.54, chrome: {chromedriverVersion: 141.0.7390.54 (b95610d5c4a5..., userDataDir: C:\Users\vRhythms\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65301}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65301/devtoo..., se:cdpVersion: 141.0.7390.54, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b030b568e96e6307018fec7d1baf1117]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//h6[text()='Dashboard']"}
@@ -128,9 +128,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.22.0', revision: 'c5f3146703*'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [00c6bc83cfc02131792772d42dd5f931, findElement {value=//h6[text()='Dashboard'], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.54, chrome: {chromedriverVersion: 141.0.7390.54 (b95610d5c4a5..., userDataDir: C:\Users\vRhythms\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54026}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54026/devtoo..., se:cdpVersion: 141.0.7390.54, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 00c6bc83cfc02131792772d42dd5f931
+Command: [b030b568e96e6307018fec7d1baf1117, findElement {using=xpath, value=//h6[text()='Dashboard']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.54, chrome: {chromedriverVersion: 141.0.7390.54 (b95610d5c4a5..., userDataDir: C:\Users\vRhythms\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65301}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65301/devtoo..., se:cdpVersion: 141.0.7390.54, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b030b568e96e6307018fec7d1baf1117
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -182,7 +182,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestOrangeHRM -->
-        <test-method is-config="true" signature="screenshotCapture(org.testng.ITestResult)[pri:0, instance:com.hyt.screenshots.TestClass@367ffa75]" started-at="2025-10-01T16:36:35 IST" name="screenshotCapture" finished-at="2025-10-01T16:36:35 IST" duration-ms="124" status="PASS">
+        <test-method is-config="true" signature="screenshotCapture(org.testng.ITestResult)[pri:0, instance:com.hyt.screenshots.TestClass@367ffa75]" started-at="2025-10-03T19:36:38 IST" name="screenshotCapture" finished-at="2025-10-03T19:36:38 IST" duration-ms="257" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -193,7 +193,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- screenshotCapture -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.hyt.screenshots.TestClass@367ffa75]" started-at="2025-10-01T16:36:35 IST" name="teardown" finished-at="2025-10-01T16:36:35 IST" duration-ms="167" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.hyt.screenshots.TestClass@367ffa75]" started-at="2025-10-03T19:36:38 IST" name="teardown" finished-at="2025-10-03T19:36:39 IST" duration-ms="979" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->

@@ -5,7 +5,9 @@
     <classes>
       <class name="com.hyt.screenshots.TestClass">
         <methods>
+          <include name="TestOrangeHRM"/>
           <include name="teardown"/>
+          <include name="screenshotCapture"/>
           <include name="setup"/>
           <include name="TestNoteAffect"/>
         </methods>

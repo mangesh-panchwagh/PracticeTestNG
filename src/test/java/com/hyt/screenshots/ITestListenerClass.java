@@ -15,6 +15,7 @@ public class ITestListenerClass extends BaseTest implements ITestListener{
 		System.out.println(result.getMethod().getMethodName());
 		captureScreenshot(result.getMethod().getMethodName() + ".jpg");
 		*/
+		
 		// For Dependency Injection
 		System.out.println(result.getTestContext().getName() + "_" + result.getMethod().getMethodName());
 		captureScreenshot(result.getTestContext().getName() + "_" + result.getMethod().getMethodName() + ".jpg");
